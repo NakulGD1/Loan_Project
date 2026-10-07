@@ -16,12 +16,9 @@ st.markdown(
 	"""
 	<style>
 	@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
-	:root { --ink: #17211f; --muted: #66736d; --mint: #d8f3dc; --coral: #ee6c4d; }
+	:root { --ink: #17211f; --muted: #66736d; --mint: #d8f3dc; --coral: #b8442b; }
 	html, body, [class*="css"] { font-family: 'DM Sans', sans-serif; }
 	h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; letter-spacing: 0; color: var(--ink); }
-	[data-testid="stAppViewContainer"] { background: linear-gradient(135deg, #f7fbf8 0%, #eef5f1 52%, #fff8f1 100%); }
-	[data-testid="stSidebar"] { background: #17211f; }
-	[data-testid="stSidebar"] * { color: #eef5f1 !important; }
 	.hero { padding: 2.5rem 0 1.4rem; }
 	.hero-kicker { color: var(--coral); font-weight: 700; text-transform: uppercase; letter-spacing: .12em; font-size: .75rem; }
 	.hero h1 { font-size: clamp(2.2rem, 5vw, 4.4rem); line-height: .98; margin: .45rem 0 .8rem; max-width: 780px; }
